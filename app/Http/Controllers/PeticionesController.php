@@ -57,6 +57,13 @@ class PeticionesController extends Controller
     public function codigo(){
         return csrf_token();
     }
+    public function nuevaCiudad($json){
+      /*  $datos = json_decode($json);
+       /* foreach ($datos as $onj){
+
+        }*/
+      // return $datos;
+    }
     public function json(){
 
 /*

@@ -35,3 +35,6 @@ Route::post('/login', 'PeticionesController@authenticate');
 
 Route::get('/crsf', 'PeticionesController@codigo');
 
+
+Route::get('/ciudades/nueva/{json}', 'PeticionesController@nuevaCiudad');
+
